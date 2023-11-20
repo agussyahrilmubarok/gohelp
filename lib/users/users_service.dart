@@ -1,7 +1,7 @@
-import 'package:shelf_dart_api/common/exceptions/already_exists_exception.dart';
-import 'package:shelf_dart_api/common/exceptions/argument_exception.dart';
-import 'package:shelf_dart_api/common/exceptions/not_found_exception.dart';
-import 'package:shelf_dart_api/users/model/user.dart';
+import 'package:shelf_blog_api/common/exceptions/already_exists_exception.dart';
+import 'package:shelf_blog_api/common/exceptions/argument_exception.dart';
+import 'package:shelf_blog_api/common/exceptions/not_found_exception.dart';
+import 'package:shelf_blog_api/users/model/user.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:postgres_pool/postgres_pool.dart';
 

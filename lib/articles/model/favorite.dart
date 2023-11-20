@@ -1,4 +1,4 @@
-import 'package:shelf_dart_api/common/model/base_entity.dart';
+import 'package:shelf_blog_api/common/model/base_entity.dart';
 
 class Favorite extends BaseEntity {
   final String userId;

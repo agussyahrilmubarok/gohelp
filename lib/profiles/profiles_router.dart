@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:shelf_dart_api/common/errors/dtos/error_dto.dart';
-import 'package:shelf_dart_api/common/exceptions/argument_exception.dart';
-import 'package:shelf_dart_api/common/middleware/auth.dart';
-import 'package:shelf_dart_api/profiles/dtos/profile_dto.dart';
-import 'package:shelf_dart_api/profiles/profiles_service.dart';
-import 'package:shelf_dart_api/users/model/user.dart';
-import 'package:shelf_dart_api/users/users_service.dart';
+import 'package:shelf_blog_api/common/errors/dtos/error_dto.dart';
+import 'package:shelf_blog_api/common/exceptions/argument_exception.dart';
+import 'package:shelf_blog_api/common/middleware/auth.dart';
+import 'package:shelf_blog_api/profiles/dtos/profile_dto.dart';
+import 'package:shelf_blog_api/profiles/profiles_service.dart';
+import 'package:shelf_blog_api/users/model/user.dart';
+import 'package:shelf_blog_api/users/users_service.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf_router/shelf_router.dart';
 

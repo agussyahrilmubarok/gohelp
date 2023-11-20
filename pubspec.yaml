@@ -9,6 +9,7 @@ environment:
 dependencies:
   args: ^2.4.2
   corsac_jwt: ^1.0.0-nullsafety.1
+  dotenv: ^4.2.0
   email_validator: ^2.1.17
   postgres_pool: ^2.1.6
   shelf: ^1.4.0

@@ -1,4 +1,4 @@
-import 'package:shelf_dart_api/articles/dtos/comment_dto.dart';
+import 'package:shelf_blog_api/articles/dtos/comment_dto.dart';
 
 class MultipleCommentsDto {
   final List<CommentDto> comments;

@@ -1,4 +1,4 @@
-import 'package:shelf_dart_api/users/dtos/user_dto.dart';
+import 'package:shelf_blog_api/users/dtos/user_dto.dart';
 
 class UserAndPassword {
   final UserDto user;

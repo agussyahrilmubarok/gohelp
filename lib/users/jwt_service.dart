@@ -1,5 +1,5 @@
 import 'package:corsac_jwt/corsac_jwt.dart';
-import 'package:shelf_dart_api/users/dtos/user_token_claim.dart';
+import 'package:shelf_blog_api/users/dtos/user_token_claim.dart';
 
 class JwtService {
   final String issuer;

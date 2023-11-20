@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:shelf_dart_api/profiles/dtos/profile_dto.dart';
+import 'package:shelf_blog_api/profiles/dtos/profile_dto.dart';
 import 'package:http/http.dart';
 import 'package:test/test.dart';
 

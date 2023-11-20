@@ -1,11 +1,11 @@
-import 'package:shelf_dart_api/articles/model/article.dart';
-import 'package:shelf_dart_api/articles/model/comment.dart';
-import 'package:shelf_dart_api/articles/model/favorite.dart';
-import 'package:shelf_dart_api/common/exceptions/already_exists_exception.dart';
-import 'package:shelf_dart_api/common/exceptions/argument_exception.dart';
-import 'package:shelf_dart_api/common/exceptions/not_found_exception.dart';
-import 'package:shelf_dart_api/common/misc/order_by.dart';
-import 'package:shelf_dart_api/users/users_service.dart';
+import 'package:shelf_blog_api/articles/model/article.dart';
+import 'package:shelf_blog_api/articles/model/comment.dart';
+import 'package:shelf_blog_api/articles/model/favorite.dart';
+import 'package:shelf_blog_api/common/exceptions/already_exists_exception.dart';
+import 'package:shelf_blog_api/common/exceptions/argument_exception.dart';
+import 'package:shelf_blog_api/common/exceptions/not_found_exception.dart';
+import 'package:shelf_blog_api/common/misc/order_by.dart';
+import 'package:shelf_blog_api/users/users_service.dart';
 import 'package:postgres_pool/postgres_pool.dart';
 import 'package:slugify/slugify.dart';
 

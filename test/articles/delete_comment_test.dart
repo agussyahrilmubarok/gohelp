@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:shelf_dart_api/articles/dtos/article_dto.dart';
-import 'package:shelf_dart_api/articles/dtos/comment_dto.dart';
-import 'package:shelf_dart_api/common/errors/dtos/error_dto.dart';
-import 'package:shelf_dart_api/users/dtos/user_dto.dart';
+import 'package:shelf_blog_api/articles/dtos/article_dto.dart';
+import 'package:shelf_blog_api/articles/dtos/comment_dto.dart';
+import 'package:shelf_blog_api/common/errors/dtos/error_dto.dart';
+import 'package:shelf_blog_api/users/dtos/user_dto.dart';
 import 'package:http/http.dart';
 import 'package:test/test.dart';
 
