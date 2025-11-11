@@ -25,9 +25,15 @@ go/build:
 go/push:
 	git add .
 	git commit -S -m "$(message)"
-	git tag $(tag)
-	git push origin main
 
+.PHONY: go/tag
+go/tag:
+	git add .
+	git commit -S -m "$(message)"
+	git tag -a $(tag) -m "$(message)"
+	git push origin main
+	git push origin $(tag)
+	
 .PHONY: clean
 clean:
 	rm -rf bin
