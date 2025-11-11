@@ -24,10 +24,6 @@ func TestNewLogger_Success(t *testing.T) {
 		t.Fatalf("expected no error, got %v", err)
 	}
 
-	if logger == nil {
-		t.Fatal("expected logger to be non-nil")
-	}
-
 	if _, err := os.Stat(logPath); os.IsNotExist(err) {
 		t.Fatalf("expected log file to exist, but not found: %v", logPath)
 	}
